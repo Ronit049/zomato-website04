@@ -1,20 +1,92 @@
-# zomato-website04
-A **Zomato website made using HTML** is a simple yet visually appealing static web project that replicates the basic layout and design of the popular food delivery and restaurant discovery platform, Zomato. This type of website is typically created by web development beginners or students as a way to practice and showcase their front-end design skills. Built using only HTML, the project focuses on creating a well-structured page with different sections such as a navigation bar, a search box to look for restaurants or dishes, featured restaurants or popular cuisines, image galleries, customer reviews, and contact or footer sections. While HTML is mainly used for the structure of the website, the layout is often enhanced with CSS for styling—such as color schemes, fonts, and alignment—to give the look and feel of the real Zomato website. Some projects may also include forms for login, sign-up, or newsletter subscriptions, demonstrating the use of input elements, buttons, and semantic tags. Although it doesn't include backend functionality or dynamic features like ordering food or fetching real-time restaurant data, the HTML Zomato website project effectively demonstrates how a professional website layout can be designed using core web development concepts. It's a great starting point for learners to understand how major platforms are structured, and it serves as a strong addition to personal portfolios hosted on GitHub or similar platforms.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zomato -HTML2</title>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background-color: white;
+          color: #b30000;
+          text-align: center;
+        }
+    
+        h1, h2 {
+          color: #cc0000;
+          margin: 30px 0 10px;
+        }
+    
+        header {
+          font-size: 1.1rem;
+          margin-bottom: 25px;
+          color: #800000;
+        }
+    
+        img {
+          margin: 10px;
+          border: 4px solid #f2f2f2;
+          border-radius: 12px;
+          transition: transform 0.3s ease;
+        }
+    
+        img:hover {
+          transform: scale(1.05);
+          border-color: #ff4d4d;
+        }
+    
+        p {
+          font-size: 1.2rem;
+          margin: 10px 0;
+          color: #990000;
+        }
+    
+        .highlight-box {
+          background-color: #ffe6e6;
+          margin: 20px auto;
+          padding: 20px;
+          border-radius: 10px;
+          width: 80%;
+          box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+        }
+      </style>
+    
+</head>
+<body>
+    <H1><u><b>ZOMATO</b></u></H1> <a href="login.html">(login here)</a></pre>
+    <HR></HR>
+    <h1><u><b>Better food for
+        more people</b></u></h1><br>
+        <header>For over a decade, we’ve enabled our customers to discover new tastes, delivered right to their doorstep</header>
+        <img src="https://b.zmtcdn.com/data/o2_assets/110a09a9d81f0e5305041c1b507d0f391743058910.png" width="300" alt="">
+        <img src="https://b.zmtcdn.com/data/o2_assets/b4f62434088b0ddfa9b370991f58ca601743060218.png" width="300" alt="">
+        <img src="https://b.zmtcdn.com/data/o2_assets/316495f4ba2a9c9d9aa97fed9fe61cf71743059024.png" width="300"alt="">
+        <H1><a href="https://www.zomato.com/">ZOMATO (offical website)</a></H1>
+
+        <p>3,00,000+
+            restaurants</p>
+        <p>800+
+            cities</p>
+            <p>3 billion+
+                orders delivered</p>
+                <h2><u><b>What’s waiting for you
+                    on the app?</b></u></h2>
+                    <header><b>Our app is packed with features that enable you to experience food delivery like never before</b></header>
+                    
+                    <pre><a href="https://www.zomato.com/mobile">play store</a>  <a href="https://www.zomato.com/mobile">app store</a></pre>
+                    <hr>
+                    <h1><u>More About Us</u></h1>
+                    <hr>
+
+                    <a href="https://www.zomato.com/deliver-food/">Partner With Us</a><br>  
+                    <a href="https://blinkit.com/">blinkit</a><br> 
+                    <a href="https://www.hyperpure.com/">hyperpure</a>
+                    
 
 
 
-GitHub is a popular platform for developers to showcase their projects, and one such interesting project that often gains attention is a **Zomato clone website created using HTML, CSS, and sometimes JavaScript**. A Zomato HTML website hosted on GitHub is typically a front-end replica of the popular food delivery service, designed to mimic the real user interface and experience of Zomato. Such a website usually includes key sections like the homepage with a hero image and search bar for restaurants or cuisines, a menu or food listing section, restaurant details pages, login or sign-up forms, and a responsive layout to ensure it works well across different devices. Students and beginners in web development often build this type of project to practice their skills in HTML for structure, CSS for styling, and basic JavaScript for interactions like pop-ups or navigation. Hosting the project on GitHub allows them to not only manage their code version control through commits and branches but also showcase their portfolio to recruiters and collaborators. Additionally, GitHub Pages can be used to deploy the project live, so anyone can view the working website by visiting a link. These Zomato clone projects are especially useful for demonstrating front-end development skills, understanding how real websites are structured, and improving UI/UX design capabilities. Sometimes developers also include dummy data using JSON or create dynamic restaurant listings using JavaScript arrays or APIs for an extra layer of functionality. Overall, a Zomato HTML website project on GitHub represents an excellent learning opportunity for aspiring web developers to practice real-world concepts and gain hands-on experience in building and hosting websites.
 
-Sure! Here's an expanded and more detailed descriptive paragraph you can use for your **Zomato HTML website GitHub repository**:
-
----
-
-This repository contains a **Zomato clone website** built using **pure HTML** (with optional use of CSS and JavaScript for enhanced styling and interactivity). The project is designed to replicate the look and feel of the original Zomato platform, providing users with a visually appealing and intuitive layout that highlights key features of a modern food delivery and restaurant discovery service. The website includes multiple static pages such as a **homepage with a search bar**, **restaurant listing section**, **detailed restaurant view pages**, a **login/sign-up form**, and a **footer with useful links and contact information**. The HTML code is written using **semantic elements** to maintain a clean and accessible structure, making it ideal for beginners learning the fundamentals of front-end web development.
-
-In this project, you'll find organized HTML files with properly commented code, making it easy to understand and customize. The design includes **hero banners**, **featured cuisine sections**, **review layouts**, and responsive image placements, closely mimicking the aesthetics of the real Zomato website. If CSS is added, styles are applied through external stylesheets for better separation of concerns, and if JavaScript is included, it may handle simple tasks like navigation bar toggles or form validations. This project is especially useful for learners who want to practice **layout design, content structure, and responsive design concepts**.  
-
-Additionally, this project can be deployed using **GitHub Pages**, so you can view a live version of the site and even share it with others. Whether you're a student working on a college assignment, a beginner creating your first portfolio project, or someone just experimenting with static website design, this Zomato HTML website repository is a great way to build real-world UI/UX design skills using core web technologies.
-
----
-
-Would you like help writing the README file for this repository too?
+</body>
+</html>
