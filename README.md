@@ -4,56 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>zomato -HTML2</title>
-    <style>
-        body {
-          margin: 0;
-          padding: 0;
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          background-color: white;
-          color: #b30000;
-          text-align: center;
-        }
-    
-        h1, h2 {
-          color: #cc0000;
-          margin: 30px 0 10px;
-        }
-    
-        header {
-          font-size: 1.1rem;
-          margin-bottom: 25px;
-          color: #800000;
-        }
-    
-        img {
-          margin: 10px;
-          border: 4px solid #f2f2f2;
-          border-radius: 12px;
-          transition: transform 0.3s ease;
-        }
-    
-        img:hover {
-          transform: scale(1.05);
-          border-color: #ff4d4d;
-        }
-    
-        p {
-          font-size: 1.2rem;
-          margin: 10px 0;
-          color: #990000;
-        }
-    
-        .highlight-box {
-          background-color: #ffe6e6;
-          margin: 20px auto;
-          padding: 20px;
-          border-radius: 10px;
-          width: 80%;
-          box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
-        }
-      </style>
-    
+  
+  
+      
 </head>
 <body>
     <H1><u><b>ZOMATO</b></u></H1> <a href="login.html">(login here)</a></pre>
